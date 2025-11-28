@@ -129,5 +129,3 @@ def live():
 
 if __name__ == "__main__":
     live()
-
-    print("Hello")
