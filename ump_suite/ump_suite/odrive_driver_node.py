@@ -108,3 +108,6 @@ def main():
     finally:
         node.destroy_node()
         rclpy.shutdown()
+
+
+# Add focal length calibration support in this node later if necessary
