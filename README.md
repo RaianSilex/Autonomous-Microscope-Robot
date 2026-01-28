@@ -7,12 +7,15 @@ Your code needs to...
 Subscribe to:
 
 /camera/image/compressed : sensor_msgs/msg/CompressedImage
+
 /motor/live_counts: std_msgs/msg/Int32
+
 /ump/live: std_msgs/msg/Int32MultiArray
 
 Publish to:
 
 /ump/target: std_msgs/msg/Int32MultiArray
+
 /motor/target_counts: std_msgs/msg/Int32
 
 
