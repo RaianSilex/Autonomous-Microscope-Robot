@@ -14,9 +14,6 @@ from .ros_interfaces import TOPIC_CAM_FPS, TOPIC_CAM_REC_CMD, TOPIC_CAM_IMAGE_CO
 
 CAM_GET_TIMEOUT_MS = 1000
 
-# We'll publish to this (ROS standard)
-# TOPIC_CAM_IMAGE_COMPRESSED = "/camera/image/compressed"
-
 class CameraNode(Node):
     def __init__(self):
         super().__init__("camera_node")
