@@ -1,4 +1,4 @@
-This package currently creates a GUI that enables both manual control and data acquisition from the robotic system.
+This package(ump_suite) currently creates a GUI that enables both manual control and data acquisition from the robotic system.
 
 For an external algorithm (learning, control, training, etc.) to work with this ROS2 package, knowledge on the following ROS topics are required:
 
